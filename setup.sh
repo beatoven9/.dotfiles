@@ -18,8 +18,6 @@ function linkDotToHomeDir() {
 
 function makeLinks() {
 
-    linkDotToConfigDir "nvim"
-
     linkDotToHomeDir ".vimrc"
     linkDotToHomeDir ".tmux.conf"
     linkDotToHomeDir ".zsh_aliases"
