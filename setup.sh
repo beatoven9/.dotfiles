@@ -29,7 +29,7 @@ read -rp "This may overwrite files. proceed? [y/n] " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 
-    checkForConfigFolder
+    # checkForConfigFolder
     makeLinks
 
 fi;
